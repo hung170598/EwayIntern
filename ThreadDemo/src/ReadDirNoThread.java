@@ -3,8 +3,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Set;
 import java.util.StringTokenizer;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.BlockingQueue;
 
 public class ReadDirNoThread implements Runnable{
     private File dir;
@@ -25,7 +24,7 @@ public class ReadDirNoThread implements Runnable{
         String str, key;
         int value;
         BufferedReader fin = null;
-        System.out.println("Readding file: " + this.listFile[this.sttFile]);
+        //System.out.println("Readding file: " + this.listFile[this.sttFile]);
         try{
             fin = new BufferedReader(new InputStreamReader(
                     new FileInputStream(this.dir.getName() + "/" + this.listFile[this.sttFile])));

@@ -9,13 +9,13 @@ public class CompletableFutureDemo2 {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         File dir = new File("input");
         File[] listFile = dir.listFiles();
-        ArrayList<CompletableFuture> futureList = new ArrayList<CompletableFuture>();
-        ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<String, Integer>(50000);
+        ArrayList<CompletableFuture> futureList = new ArrayList<>();
+        ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>(50000);
 
         for(File file: listFile){
             CompletableFuture future = CompletableFuture.supplyAsync(() -> {
                 LinkedHashMap<String, Integer> hashMap = new LinkedHashMap<>(50000);
-                System.out.println("Reading File: " + file.getName());
+                //System.out.println("Reading File: " + file.getName());
                 try{
                     BufferedReader fin = new BufferedReader( new InputStreamReader(
                             new FileInputStream(file), "UTF-8"

@@ -1,9 +1,6 @@
 import java.io.*;
 import java.util.*;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 public class ReadFileThreadPool implements Callable {
     private File file;
@@ -17,7 +14,7 @@ public class ReadFileThreadPool implements Callable {
         LinkedHashMap<String, Integer> hashMap = new LinkedHashMap<>(50000);
         String str, key;
         int value;
-        System.out.println("Reading File " + file.getName());
+        //System.out.println("Reading File " + file.getName());
 
         try{
             BufferedReader fin = new BufferedReader( new InputStreamReader(
@@ -57,10 +54,11 @@ public class ReadFileThreadPool implements Callable {
                 arrFile.length + " file");
 
 
-        ExecutorService executor = Executors.newFixedThreadPool(4);
+        ExecutorService executor = Executors.newFixedThreadPool(8);
 
         startTime = System.nanoTime();
         for(File file: arrFile){
+
             future = executor.submit(new ReadFileThreadPool(file));
             arrFuture.add(future);
         }
@@ -84,7 +82,7 @@ public class ReadFileThreadPool implements Callable {
         }
 
         endTime = System.nanoTime();
-        System.out.println(endTime - startTime);
+        System.out.println("Read Time: " + TimeUnit.MILLISECONDS.convert(endTime - startTime,TimeUnit.NANOSECONDS));
 
 
         File outFile = new File("output.txt");

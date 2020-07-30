@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5dd6d8d-dcd2-4a8e-a028-6caf8bfde857" name="Default Changelist" comment="" />
+    <list default="true" id="e5dd6d8d-dcd2-4a8e-a028-6caf8bfde857" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadDemo/input_1/fdfd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadDemo/src/CompletableFutrueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadDemo/src/ReadDirThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadDemo/src/SumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadDemo/src/WaitNotifyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.LambdaExpresstion.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CollectionDemo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionDemo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionInterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamApiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LambdaExpresstion.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaExpresstion.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/CompletableFutureDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/CompletableFutureDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/ReadDirNoThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/ReadDirNoThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/ReadFileThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/ReadFileThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/out/production/ThreadDemo/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/src/CompletableFutureDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/src/CompletableFutureDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/src/ReadDirNoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/src/ReadDirNoThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/src/ReadFileThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/src/ReadFileThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadDemo/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadDemo/src/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadPool.odp" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadPool.odp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadPool.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadPool.odt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +43,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1eNrROd2Z5pBGDLpSTRSBtZtLkT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37931034" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArraylistDemo">
+  <component name="RunManager" selected="Application.StreamApiDemo">
     <configuration name="ArraylistDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraylistDemo" />
       <module name="CollectionDemo" />
@@ -59,8 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamApiDemo" />
+      <module name="CollectionDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamApiDemo" />
         <item itemvalue="Application.ArraylistDemo" />
         <item itemvalue="Application.CloneObjectDemo" />
         <item itemvalue="Application.SetDemo" />
@@ -82,11 +122,27 @@
       <workItem from="1594370202447" duration="2637000" />
       <workItem from="1594714449401" duration="6808000" />
       <workItem from="1594891650538" duration="4176000" />
-      <workItem from="1595314613437" duration="2563000" />
+      <workItem from="1595314613437" duration="5959000" />
+      <workItem from="1595400080344" duration="6243000" />
+      <workItem from="1595486676778" duration="35000" />
+      <workItem from="1596010077409" duration="1268000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

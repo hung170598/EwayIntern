@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="647f5254-7a63-448b-8ab8-7f1e8c7eecdb" name="Default Changelist" comment="" />
+    <list default="true" id="647f5254-7a63-448b-8ab8-7f1e8c7eecdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/SynQueueAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/SynQueueTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/UnSynQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/UnSynQueueAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/UnSynQueueTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectionDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectionDemo/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_1/fdfd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompletableFutrueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReadDirThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WaitNotifyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.LambdaExpresstion.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionDemo/out/production/CollectionDemo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionDemo/out/production/CollectionDemo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionDemo/src/FunctionInterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionDemo/src/FunctionInterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionDemo/src/StreamApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionDemo/src/StreamApiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionDemo/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionDemo/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LambdaExpresstion.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaExpresstion.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/CompletableFutureDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadDemo/CompletableFutureDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/ReadDirNoThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadDemo/ReadDirNoThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/ReadFileThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadDemo/ReadFileThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadDemo/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompletableFutureDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompletableFutureDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadDirNoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadDirNoThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFileThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFileThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadPool.odp" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadPool.odp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadPool.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadPool.odt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +49,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1eO5H3Z3fscMvja9ZAUM7zOKYPN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlockingQueueDemo" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -36,14 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompletableFutureDemo2">
-    <configuration name="CompletableFutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompletableFutureDemo" />
-      <module name="ThreadDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadDemo">
     <configuration name="CompletableFutureDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompletableFutureDemo2" />
       <module name="ThreadDemo" />
@@ -58,6 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadDirThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadDirThread" />
+      <module name="ThreadDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadFileThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReadFileThreadPool" />
       <module name="ThreadDemo" />
@@ -65,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSchedulerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadSchedulerDemo" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo" />
       <module name="ThreadDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.ReadFileThreadPool" />
+        <item itemvalue="Application.ReadDirThread" />
         <item itemvalue="Application.CompletableFutureDemo2" />
         <item itemvalue="Application.ReadDirNoThread" />
-        <item itemvalue="Application.ReadFileThreadPool" />
-        <item itemvalue="Application.ThreadSchedulerDemo" />
-        <item itemvalue="Application.CompletableFutureDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -102,10 +141,54 @@
       <workItem from="1594363246867" duration="7600000" />
       <workItem from="1594713293765" duration="4849000" />
       <workItem from="1594893738056" duration="987000" />
+      <workItem from="1595320112902" duration="3967000" />
+      <workItem from="1595406050626" duration="4170000" />
+      <workItem from="1595486715795" duration="3510000" />
+      <workItem from="1595574745607" duration="7329000" />
+      <workItem from="1595585591889" duration="1179000" />
+      <workItem from="1595587524445" duration="592000" />
+      <workItem from="1595832271062" duration="9366000" />
+      <workItem from="1596004738697" duration="6338000" />
+      <workItem from="1596011859880" duration="3278000" />
+      <workItem from="1596091185432" duration="3032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReadFileThreadPool.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReadFileThreadPool.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ReadFileThreadPool.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,9 +1,6 @@
 
-import java.util.Comparator;
-import java.util.function.*;
-
-public class FunctionInterfaceDemo {
-
+@FunctionalInterface
+public interface FunctionInterfaceDemo {
+    void say1();
 }
-
 
