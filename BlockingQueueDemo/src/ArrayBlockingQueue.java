@@ -8,7 +8,7 @@ public class ArrayBlockingQueue<E> {
     private int putIndex;
     private int takeIndex;
     private Locker locker;
-    private final int DEFAULT_CAPACITY = 65536;
+    private final int DEFAULT_CAPACITY = 65535;
 
     public ArrayBlockingQueue() {
         this.locker = new Locker();
@@ -18,7 +18,7 @@ public class ArrayBlockingQueue<E> {
         this.items = new Object[DEFAULT_CAPACITY];
     }
 
-    public ArrayBlockingQueue(int capacity){
+    public ArrayBlockingQueue(int capacity) {
         this.locker = new Locker();
         this.putIndex = 0;
         this.takeIndex = 0;
@@ -34,63 +34,82 @@ public class ArrayBlockingQueue<E> {
         return this.count == 0;
     }
 
-    private void enqueue(E element) throws InterruptedException {
+    private void enqueue(E element) {
         this.items[this.putIndex] = element;
         if (++this.putIndex == this.items.length) {
             this.putIndex = 0;
         }
         this.count++;
+        System.out.println("EnQueue Take Index: " + this.takeIndex + "|PutIndex: " + this.putIndex + "|Size: " + this.size() +
+                "|Element: " + element.toString() + "|ThreadName:" + Thread.currentThread().getId() + "|Time:" + System.currentTimeMillis());
     }
 
-    private E dequeue() throws InterruptedException {
+    private E dequeue() {
         Object element = this.items[this.takeIndex];
         this.items[this.takeIndex] = null;
         if (++this.takeIndex == this.items.length) {
             this.takeIndex = 0;
         }
         this.count--;
+        System.out.println("DeQueue Take Index: " + this.takeIndex + "|PutIndex: " + this.putIndex + "|Size: " + this.size() +
+                "|Element: " + element.toString() + "|ThreadName:" + Thread.currentThread().getId() + "|Time:" + System.currentTimeMillis());
         return (E) element;
     }
 
-    public void put(E element) throws InterruptedException{
-        if(element == null){
+    public synchronized void offer(E element) {
+        if (element == null) throw
+                new NullPointerException();
+        if (this.capacity == this.count) {
+            return;
+        }
+        this.enqueue(element);
+        if (this.count == 1) {
+            notifyAll();
+        }
+    }
+
+    public synchronized void put(E element) throws InterruptedException {
+        if (element == null) {
             throw new NullPointerException();
         }
-        this.locker.lock();
-        try{
-            if(this.count == this.items.length){
-                return;
-            }
-            System.out.println("EnQueue Take Index: " + this.takeIndex + "|PutIndex: " + this.putIndex + "|Size: " + this.size() +
-                    "|Element: " + element.toString() + "|ThreadName:" + Thread.currentThread().getId());
-            this.enqueue(element);
+        while (this.capacity == this.count) {
+            wait();
         }
-        finally {
-            this.locker.unlock();
+        this.enqueue(element);
+        if (this.count == 1) {
+            notifyAll();
         }
     }
 
-    public E take()throws InterruptedException{
-        this.locker.lock();
-        Object res;
-        try{
-            res = this.count == 0 ? Integer.valueOf(-1) : this.dequeue();
-            System.out.println("DeQueue Take Index: " + this.takeIndex + "|PutIndex: " + this.putIndex + "|Size: " + this.size() +
-                    "|Element: " + res.toString() + "|ThreadName:" + Thread.currentThread().getId());
+    public synchronized E poll() {
+        Object element;
+        if(this.count == 0) return (E) null;
+        if(this.count == this.capacity){
+            notifyAll();
         }
-        finally {
-            this.locker.unlock();
-        }
-        return (E)res;
+        return this.dequeue();
     }
 
-    public void clear() throws InterruptedException{
-        this.locker.lock();
-        for(Object element: this.items){
+    public synchronized E take() throws InterruptedException {
+        while (this.count == 0) {
+            wait();
+        }
+        if (this.count == this.capacity) {
+            notifyAll();
+        }
+        return this.dequeue();
+    }
+
+    public synchronized void clear() {
+        for (Object element : this.items) {
             this.items = null;
+        }
+        if (this.count == this.capacity) {
+            notifyAll();
         }
         this.putIndex = this.takeIndex = 0;
         this.count = 0;
+
     }
 
 }

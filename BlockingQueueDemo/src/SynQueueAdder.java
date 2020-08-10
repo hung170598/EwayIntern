@@ -1,10 +1,10 @@
 
 public class SynQueueAdder implements Runnable {
 
-    private LinkedBlockingQueue1 queue;
+    private LinkedBlockingQueue queue;
     private int num;
 
-    public SynQueueAdder(LinkedBlockingQueue1 queue, int num) {
+    public SynQueueAdder(LinkedBlockingQueue queue, int num) {
         this.queue = queue;
         this.num = num;
     }

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public class LinkedBlockingQueue2<E> {
 
-public class LinkedBlockingQueue2 {
 }

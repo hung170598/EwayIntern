@@ -1,0 +1,3 @@
+Implement Thread Pool với 1 nguyên tắc tự chọn
+Yêu câu: Log đầy đủ
+Thời gian 1 tuần.

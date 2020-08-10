@@ -38,6 +38,7 @@ public class UnSynQueue<E> {
 
     public void put(E element) throws InterruptedException{
         this.enqueue(element);
+        System.out.println("");
     }
 
     public void clear() throws InterruptedException{

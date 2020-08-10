@@ -1,9 +1,9 @@
 public class SynQueueTaker implements Runnable {
 
-    LinkedBlockingQueue1<Integer> queue;
+    LinkedBlockingQueue<Integer> queue;
     int num = 100;
 
-    public SynQueueTaker(LinkedBlockingQueue1<Integer> queue, int num) {
+    public SynQueueTaker(LinkedBlockingQueue<Integer> queue, int num) {
         this.queue = queue;
         this.num = num;
     }

@@ -1,9 +1,11 @@
+import java.util.Vector;
 import java.util.concurrent.BlockingQueue;
 
 public class ThreadDemo {
     public static void main(String[] args){
         ThreadB b = new ThreadB();
         b.start();
+        Vector
         synchronized(b){
             try{
                 System.out.println("Waiting for b to complete...");
