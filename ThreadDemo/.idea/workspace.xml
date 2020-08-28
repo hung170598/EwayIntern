@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647f5254-7a63-448b-8ab8-7f1e8c7eecdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/ArrayBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/ArrayBlockingQueueAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/ArrayBlockingQueueTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/LinkedBlockingQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Locker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/MyClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/MyClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/Thread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/LinkedBlockingQueue1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/SynQueueAdder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/SynQueueAdder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/SynQueueTaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/SynQueueTaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/UnSynQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/UnSynQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/src/LinkedBlockingQueue1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/LinkedBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/src/SynQueueAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/SynQueueAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/src/SynQueueTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/SynQueueTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/src/UnSynQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/UnSynQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.Groovy.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/Synchronize/MyClass1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/out/production/BlockingQueueDemo/Synchronize/MyClass1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/MyClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlockingQueueDemo/src/Synchronize/MyClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Groovy.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Groovy.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroovyTest2/out/production/GroovyTest2/Main$_main_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GroovyTest2/out/production/GroovyTest2/Main$_main_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroovyTest2/out/production/GroovyTest2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GroovyTest2/out/production/GroovyTest2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroovyTest2/src/Main.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/../GroovyTest2/src/Main.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/MyThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/MyThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/out/production/MyThreadPoolDemo/WorkerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/src/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/src/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyThreadPoolDemo/src/MyThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyThreadPoolDemo/src/MyThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/ReadDirNoThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadDemo/ReadDirNoThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThreadDemo/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThreadDemo/ThreadDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,6 +141,9 @@
       <workItem from="1596107669327" duration="666000" />
       <workItem from="1596440972724" duration="2286000" />
       <workItem from="1596523142928" duration="8171000" />
+      <workItem from="1597302978404" duration="65000" />
+      <workItem from="1597303068889" duration="5255000" />
+      <workItem from="1597630340300" duration="71000" />
     </task>
     <servers />
   </component>

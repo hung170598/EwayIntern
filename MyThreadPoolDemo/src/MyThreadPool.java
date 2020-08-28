@@ -40,9 +40,9 @@ public class MyThreadPool {
         if(task == null) throw
                 new NullPointerException();
 
-        System.out.println("PRE Put:PoolWorkerSize:" + this.workers.size() + "|Task Queue:" + this.taskQueue.size());
+//        System.out.println("PRE Put:PoolWorkerSize:" + this.workers.size() + "|Task Queue:" + this.taskQueue.size());
         this.putTaskToQueue(task);
-        System.out.println("After Put:PoolWorkerSize:" + this.workers.size() + "|Task Queue:" + this.taskQueue.size());
+//        System.out.println("After Put:PoolWorkerSize:" + this.workers.size() + "|Task Queue:" + this.taskQueue.size());
         if(this.workers.size() <= this.corePoolSize ||
                 (this.taskQueue.remainingCapacity() == 0 && this.workers.size() < maxPoolSize)){
             WorkerThread worker = this.createWorker();

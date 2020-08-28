@@ -6,7 +6,7 @@ class Main {
 
     public static void main(String[] args) {
         int sum = 1 + 2
-        def str = "Sum of 1 and 2 is ${a -> a << 3}";
+        def str = "Sum of 1 and 2 is ${a -> a << sum}";
         println str
         sum = 5
         println str
